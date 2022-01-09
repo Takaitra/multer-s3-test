@@ -1,0 +1,17 @@
+{
+  "name": "multer-s3-test",
+  "version": "1.0.0",
+  "description": "Test package for multer-s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Matthew Toso",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.46.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "multer-s3": "file:../multer-s3"
+  }
+}
